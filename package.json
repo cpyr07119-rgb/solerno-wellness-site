@@ -1,0 +1,16 @@
+{
+  "name": "solerno-wellness-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website and booking request backend for Solerno Wellness Club, Tomsk",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "express-rate-limit": "^7.5.0"
+  }
+}
